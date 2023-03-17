@@ -1,18 +1,9 @@
 package br.com.fiap.checkpoint1.dto;
 
-public class EmpregadoDTO {
-
-    private Long codigoEmpregado;
+public class CriarEmpregadoDTO {
+    
     private String nome;
     private String endereco;
-
-    public Long getCodigoEmpregado() {
-        return codigoEmpregado;
-    }
-
-    public void setCodigoEmpregado(Long codigoEmpregado) {
-        this.codigoEmpregado = codigoEmpregado;
-    }
 
     public String getNome() {
         return nome;
@@ -29,5 +20,4 @@ public class EmpregadoDTO {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    
 }
